@@ -213,7 +213,7 @@ p {
 
 .food-image {
   width: 100%;
-  padding-bottom: 30px; }
+}
 
 .forkOrChopsticks,
 .temperature {
@@ -258,3 +258,14 @@ input[type=submit] {
 .answer {
   font-family: 'Lobster Two', cursive;
   font-size: 10vmin; }
+
+footer {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.fa-smile {
+  font-size: 5rem;
+}
