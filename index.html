@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fork or Chopsticks?</title>
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700i|Source+Sans+Pro:400,900" rel="stylesheet">
+	<link rel="stylesheet" href="public/styles/style.css">
+</head>
+<body>
+	
+		<header>
+			<div class="icon"><i class="fas fa-utensils"></i></div>
+			<h1>Fork, Chopsticks, or Hands?</h1>
+			<h2>Sometimes it's easier to decide what to eat with first.</h2>
+			<div class="point-down"><i class="fas fa-hand-point-down"></i></div>
+		</header>
+
+		<main>
+		<form action="">
+			<fieldset class="forkOrChopsticks button">
+				<p>How do you want to eat? Fork, chopsticks, or hands? Pick ONE.</p>
+				
+				<input type="radio" name="utensil" id="fork" value="fork">
+				<label for="fork">Fork</label>
+				
+				<input type="radio" name="utensil" id="chopsticks" value="chopsticks">
+				<label for="chopsticks">Chopsticks</label>
+				
+				<input type="radio" name="utensil" id="hands" value="hands">
+				<label for="hands">My Bare Hands!</label>
+			</fieldset>
+			<fieldset class="temperature button">
+				<p>Hot or Cold?</p>
+				
+				<input type="radio" name="temp" id="hot" value="hot">
+				<label for="hot">Hot</label>
+				
+				<input type="radio" name="temp" id="cold" value="cold">
+				<label for="cold">Cold</label>
+
+				<div class="submit-container">
+					<i class="fas fa-hand-point-right"></i> <input type="submit" value="Tell me what to eat!">
+				</div>
+			</fieldset>
+			
+		</form>
+		<section class="results">
+			<h2 class="answer">Mmm?</h2>
+			<div><img src="https://images.unsplash.com/photo-1448632055520-5180f82474e2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3ccccdcd559f417aac3991f2ac653d3c&auto=format&fit=crop&w=1335&q=80" class="food-image"></div>
+		</section>
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+	<script src="public/scripts/main.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	
+</body>
+</html>
